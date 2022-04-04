@@ -8,6 +8,14 @@ body {
     background-color: darkslategrey;
 }
 
+header {
+    background-color: white;
+}
+
+img {
+    max-width: 80px;
+}
+
 .container {
     width: 800px;
     margin: 2rem auto;
@@ -22,17 +30,33 @@ body {
     width: calc(100% / 10);
     border: 1px solid white;
     aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 .cell_81 {
     width: calc(100% / 9);
     border: 1px solid white;
-    aspect-ratio: 1 / 1;    
+    aspect-ratio: 1 / 1;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;  
 }
 
 .cell_49 {
     width: calc(100% / 7);
     border: 1px solid white;
     aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.active {
+    background-color: cornflowerblue;
 }
 
