@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslategrey;
+}
+
+.container {
+    width: 800px;
+    margin: 2rem auto;
+}
+
+.cells {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell_100 {
+    width: calc(100% / 10);
+    border: 1px solid white;
+    aspect-ratio: 1 / 1;
+}
+
+.cell_81 {
+    width: calc(100% / 9);
+    border: 1px solid white;
+    aspect-ratio: 1 / 1;    
+}
+
+.cell_49 {
+    width: calc(100% / 7);
+    border: 1px solid white;
+    aspect-ratio: 1 / 1;
+}
+
